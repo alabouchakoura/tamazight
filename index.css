@@ -1,5 +1,5 @@
 body{
-    padding:15px;
+    padding:15px 15px 0 15px;
     margin: 0;
     font-family:monospace;
     background-color: #121212;
@@ -17,7 +17,7 @@ h1{
 .button-container {
       display: inline-block;
       text-align: center;
-      margin: 10px;
+      margin:7px;
     }
 .button-container p {
 margin:2px 0;
@@ -62,4 +62,29 @@ textarea{
     display: flex;
     justify-content: center;
     gap:100px;
+}
+h2{
+    color:white;
+}
+p{
+    color: white;
+    font-size: 15px;
+    margin-left:20px;
+}
+#photos{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+}
+img{
+    width:200px;
+}
+#proverb{
+    text-align: center;
+    padding: 0;
+    margin:0;
+}
+#proverb p{
+    font-weight: bold;
+    font-size:15px;
 }
